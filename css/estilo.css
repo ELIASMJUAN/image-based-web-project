@@ -20,14 +20,15 @@ section{
     border-radius: 15px 15px 15px 15px;
 
 }
+
+/* comienza div d1 titulo */
 div.d1{
     text-align: center;
     padding: 75px 50px 50px 50px;   
 }
 div.d1 h1{
     padding: 10px 0px;
-    font-size: xx-largegit;
-
+    font-size: xx-large;
 }
 h4{
     color: #4269e2ff;
@@ -36,25 +37,25 @@ h4{
 p.d1{
     font-size: small;
 }
+/* finaliza div 1 */
 
 /* comienza div contenedor 2 incluye 3 div hijos */
 div.d2{
     display: flex;
     font-size: small;
-
-    margin: 0px 70px 20px 70px;
+    margin: 0px 70px 20px 60px;
 }
 div.di1{
     margin: 10px 15px;
-    padding: 10px 10px;
+    padding: 10px 10px 10px 30px;
 }
 div.di2{
     margin: 10px 15px;
-    padding: 10px 10px;
+    padding: 10px 10px 10px 20px;
 }
 div.di3{
     margin: 10px 15px;
-    padding: 10px 10px;
+    padding: 10px 10px 10px 20px;
 }
 /* finaliza div contenedor 2 */
 
@@ -63,33 +64,36 @@ div.d3{
     display: flex;
     justify-content: safe;
     font-size: small;
-    margin: 0px 70px 0px 70px;
-    padding: 0px 0px 50px 0px;
+    margin: 0px 70px 0px 60px;
+    padding-bottom: 70px;
 }
 div.di4{
     margin: 10px 15px;
-    padding: 10px 10px;
+    padding: 10px 10px 10px 20px;
     width: 450px;
 }
 div.di5{
     margin: 10px 15px;
-    padding: 10px 10px;
+    padding: 10px 10px 10px 20px;
 }
 div.di6{
     margin: 10px 15px;
-    padding: 10px 10px;
+    padding: 10px 10px 10px 20px;
 }
 /* finaliza div padre 3 */
 
 
 /* div{
     border: 2px, solid, black;
-} */
+} */ 
 h3{
-    padding: 20px 0px px 0px;
+    padding:20px 0px 5px 0px;
 }
 i{
-    padding-left: 10px;
+    background-color: #4269e2ff;
+    color: white;
+    border-radius: 100%;
+    padding: 10px 12px;
 }
 /* // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 300 to 800
