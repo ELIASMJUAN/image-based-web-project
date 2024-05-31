@@ -22,7 +22,7 @@ section{
 }
 div.d1{
     text-align: center;
-    padding: 75px 50px;   
+    padding: 75px 50px 50px 50px;   
 }
 div.d1 h1{
     padding: 10px 0px;
@@ -41,6 +41,7 @@ p.d1{
 div.d2{
     display: flex;
     font-size: small;
+
     margin: 0px 70px 20px 70px;
 }
 div.di1{
@@ -81,10 +82,15 @@ div.di6{
 /* finaliza div padre 3 */
 
 
-i{
-    padding: 10px 10px 50px 10px;
+/* div{
+    border: 2px, solid, black;
+} */
+h3{
+    padding: 20px 0px px 0px;
 }
- 
+i{
+    padding-left: 10px;
+}
 /* // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 300 to 800
 
