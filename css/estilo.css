@@ -1,13 +1,14 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
-
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 *{
     margin: 0px;
     padding: 0px;
 }
+
 body{
     background-color: #ced6f0;
+    color: #0e2058ff;
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
@@ -47,15 +48,15 @@ div.d2{
 }
 div.di1{
     margin: 10px 15px;
-    padding: 10px 10px 10px 30px;
+    padding: 10px;
 }
 div.di2{
     margin: 10px 15px;
-    padding: 10px 10px 10px 20px;
+    padding: 10px 10px 10px 30px;
 }
 div.di3{
     margin: 10px 15px;
-    padding: 10px 10px 10px 20px;
+    padding: 10px 10px 10px 30px;
 }
 /* finaliza div contenedor 2 */
 
@@ -69,23 +70,20 @@ div.d3{
 }
 div.di4{
     margin: 10px 15px;
-    padding: 10px 10px 10px 20px;
+    padding: 10px;
     width: 450px;
 }
 div.di5{
     margin: 10px 15px;
-    padding: 10px 10px 10px 20px;
+    padding: 10px 10px 10px 30px;
 }
 div.di6{
     margin: 10px 15px;
-    padding: 10px 10px 10px 20px;
+    padding: 10px 10px 10px 30px;
 }
 /* finaliza div padre 3 */
 
-
-/* div{
-    border: 2px, solid, black;
-} */ 
+/* otros estilos */
 h3{
     padding:20px 0px 5px 0px;
 }
@@ -95,14 +93,3 @@ i{
     border-radius: 100%;
     padding: 10px 12px;
 }
-/* // <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 300 to 800
-
-open-sans-<uniquifier> {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-} */
